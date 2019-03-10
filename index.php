@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <!-- <?php include('navbar.php'); ?> -->
+      <?php include('navbar.php'); ?>
     </header>
     <!-- <div style="padding: 0px 14px">
       <div>
@@ -19,8 +19,8 @@
           <div class="form-group">
             <input type="password" name="password" autocomplete="off" placeholder="Passwort" required>
           </div>
-          <input type="submit" value="Anmelden">
-      </div> -->
+          <input type="submit" value="Anmelden"> -->
+      </div>
     </div>
   </body>
 </html>
