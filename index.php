@@ -19,5 +19,8 @@
           </div>
           <input class="btn btn-lg m4u_color" type="submit" value="Anmelden">
       </div>
+      <?php // TODO: überprüfen ?>
+      <!-- <script src="jQuery/jquery.min.js"></script>
+  		<script src="bootstrap/js/bootstrap.min.js"></script> -->
   </body>
 </html>
