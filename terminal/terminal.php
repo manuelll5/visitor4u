@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/textareaAndBtnBorderInColor.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/xButton.css">
+    <link rel="stylesheet" href="../css/textareaAndBtnBorderInColor.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 <!------------------------------------------------------------------------------>
 <?php // TODO: title anpassen ?>
     <!--Oder Firmennamen?-->
@@ -14,7 +15,7 @@
   </head>
   <body>
     <!-- <?php include "clock.php"; ?> -->
-    <!-- <?php include "xButton.php"; ?> -->
+    <?php include "xButton.php"; ?>
     <img src="../logo/companyLogo.png" alt="companyLogo" class="c_logo">
     <h1>Willkommen beim Besuchermanagment-System</h1>
 

@@ -1,0 +1,9 @@
+#cross {
+	float: right;
+	background: transparent;
+	background-image: url('../icon/icons8-löschen-50.png');
+	height: 50px;
+	width: 50px;
+	border: none;
+	box-shadow: none;
+}

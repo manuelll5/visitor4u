@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/textareaAndBtnBorderInColor.css">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   </head>
   <body>
     <button id="cross" class="btn" data-toggle="modal" data-target="#logoutModal"></button>
 
-    <form action="T.index.php" method="post">
+    <form action="index.php" method="post">
       <div class="modal modal-wide fade" role="dialog" id="logoutModal">
         <div class="modal-dialog" style="width: 500px;">
           <div class="modal-content">
