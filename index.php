@@ -15,10 +15,10 @@
     // TODO: Join Infos erarbeiten
     $sql = "SELECT user.username, user.password, user.privileges, user.lastname, company.companyName, settings.set_color, settings.set_bg_color, company.idCompany
       FROM user
-      right JOIN company
+      RIGHT JOIN company
       ON
       user.company_idCompany = company.idCompany
-      left JOIN settings
+      LEFT JOIN settings
       ON
       settings.company_idCompany = company.idCompany
       WHERE user.username='" . $username . "' ";
@@ -27,7 +27,7 @@
 
     $result = $pdo->query($sql)->fetch();
     // TODO: Passwort in datenbank noch hashen und härten!!!
-    // $password = hash("sha256", $password);
+    $password = hash("sha256", $password);
 
     if($username == $result['username'] and $password == $result['password']) {
       $_SESSION['username'] = $username;
