@@ -13,7 +13,7 @@ create table if not exists company
 	street varchar (255) not null,
 	number varchar (45) not null,
 	postcode int not null,
-	city varchar (255) not null
+	city varchar (255) not null 
 )
 ;
 
