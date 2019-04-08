@@ -13,21 +13,26 @@ create table if not exists company
 	street varchar (255) not null,
 	number varchar (45) not null,
 	postcode int not null,
-	city varchar (255) not null 
+	city varchar (255) not null,
+	index c_companyName (c_companyName)
+
 )
+Engine=INNODB default charset=UTF8
 ;
 
 create table if not exists user
 (
 	idUser int not null auto_increment primary key,
-	firstname varchar (255) not null,
+	firstname varchar (255),
 	lastname varchar (255) not null,
 	username varchar (255) not null,
 	password varchar (255) not null,
 	privileges int not null,
 	company_idCompany int not null,
-	foreign key (company_idCompany) references company(idCompany)
+	foreign key (company_idCompany) references company(idCompany),
+	index u_firstname (u_firstname)
 )
+Engine=INNODB default charset=UTF8
 ;
 
 create table if not exists employee
@@ -41,8 +46,10 @@ create table if not exists employee
 	roomNo varchar (255) not null,
 	phoneNo int not null,
 	company_idCompany int not null,
-	foreign key (company_idCompany) references company(idCompany)
+	foreign key (company_idCompany) references company(idCompany),
+	index e_firstname (e_firstname)
 )
+Engine=INNODB default charset=UTF8
 ;
 
 
@@ -64,8 +71,10 @@ create table if not exists visitors
 	title VARCHAR (255),
 	dataProtection varchar (255),
 	company_idCompany int not null,
-	foreign key (company_idCompany) references company(idCompany)
+	foreign key (company_idCompany) references company(idCompany),
+	index v_firstname (v_firstname)
 )
+Engine=INNODB default charset=UTF8
 ;
 
 create table if not exists settings
@@ -86,8 +95,10 @@ create table if not exists settings
 	set_bg_color varchar (45) not null,
 	set_link_dataProtection VARCHAR (255) not null,
 	company_idCompany int not null,
-	foreign key (company_idCompany) references company(idCompany)
+	foreign key (company_idCompany) references company(idCompany),
+	index s_firstname (s_firstname)
 )
+Engine=INNODB default charset=UTF8
 ;
 
 commit;

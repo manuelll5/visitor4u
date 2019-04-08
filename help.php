@@ -11,6 +11,7 @@
       ?>
   </header>
   <body>
+    <?php // TODO: Responsiv! ?>
     <?php // TODO: Handbuch einfügen ?>
     <object data="sonstiges/test.pdf" type="application/pdf">
         <?php // TODO: Test link entfernen und richtigen hinzufügen ?>
