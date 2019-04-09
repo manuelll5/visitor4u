@@ -7,3 +7,13 @@
 	border: none;
 	box-shadow: none;
 }
+
+.plus {
+	float: right;
+	background: transparent;
+	background-image: url('../icon/icons8-plus-2-50.png');
+	height: 50px;
+	width: 50px;
+	border: none;
+	box-shadow: none;
+}

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Visitor4U - Einstellungen</title>
   </head>
   <header>
     <?php
