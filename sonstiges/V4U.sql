@@ -14,7 +14,7 @@ create table if not exists company
 	number varchar (45) not null,
 	postcode int not null,
 	city varchar (255) not null,
-	index c_companyName (c_companyName)
+	index c_companyName (companyName)
 
 )
 Engine=INNODB default charset=UTF8
@@ -30,7 +30,7 @@ create table if not exists user
 	privileges int not null,
 	company_idCompany int not null,
 	foreign key (company_idCompany) references company(idCompany),
-	index u_firstname (u_firstname)
+	index u_firstname (firstname)
 )
 Engine=INNODB default charset=UTF8
 ;
@@ -47,7 +47,7 @@ create table if not exists employee
 	phoneNo int not null,
 	company_idCompany int not null,
 	foreign key (company_idCompany) references company(idCompany),
-	index e_firstname (e_firstname)
+	index e_firstname (firstname)
 )
 Engine=INNODB default charset=UTF8
 ;
@@ -72,7 +72,7 @@ create table if not exists visitors
 	dataProtection varchar (255),
 	company_idCompany int not null,
 	foreign key (company_idCompany) references company(idCompany),
-	index v_firstname (v_firstname)
+	index v_firstname (firstname)
 )
 Engine=INNODB default charset=UTF8
 ;
@@ -96,7 +96,7 @@ create table if not exists settings
 	set_link_dataProtection VARCHAR (255) not null,
 	company_idCompany int not null,
 	foreign key (company_idCompany) references company(idCompany),
-	index s_firstname (s_firstname)
+	index s_firstname (set_firstname)
 )
 Engine=INNODB default charset=UTF8
 ;

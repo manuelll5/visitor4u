@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/visitorList.css">
     <link rel="stylesheet" href="css/button.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/textareaAndBtnBorderInColor.css">
     <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <script src="js/visitor4uList.js"></script>
     <title>Visitor4U - Besucherliste</title>
   </head>
   <header>
@@ -43,19 +44,18 @@
             <td><input class="form-control company-color-border admin_employee_input" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
             <td><input class="form-control company-color-border admin_employee_input" type="text" name="username" placeholder="Benutzername" autocomplete="off" disabled></td>
           </tr>
-          <?php // TODO: ' in " ersetzen ?>
-          <tr id='admin_employee2' style='display: none;'>
-            <input type='hidden' id='type' name='type'>
-            <td><input class='form-control company-color-border admin_employee_input pw' type='password' id='pw1.1' name='password' placeholder='Passwort' autocomplete='off' disabled></td>
-            <td><input class='form-control company-color-border admin_employee_input pw' type='password' id='pw1.2' name='password2' placeholder='Passwort bestätigen' autocomplete='off' disabled></td>
-            <td><input type='submit' id='submit' name='submitAdmin_employee' class='btn company-color company-color-border' value='Speichern'></td>
+          <tr id="admin_employee2" style="display: none;">
+            <input type="hidden" id="type" name="type">
+            <td><input class="form-control company-color-border admin_employee_input pw" type="password" id="pw1.1" name="password" placeholder="Passwort" autocomplete="off" disabled></td>
+            <td><input class="form-control company-color-border admin_employee_input pw" type="password" id="pw1.2" name="password2" placeholder="Passwort bestätigen" autocomplete="off" disabled></td>
+            <td><input type="submit" id="submit" name="submitAdmin_employee" class="btn company-color company-color-border" value="Speichern"></td>
           </tr>
-          <tr id='terminal' style='display: none;'>
-            <td style='width: 20%;'><input class='form-control company-color-border terminal_input' type='text' name='terminal_name' placeholder='Name des Terminals' autocomplete='off' disabled></td>
-            <td style='width: 20%;'><input class='form-control company-color-border terminal_input' type='text' name='username' placeholder='Benutzername' autocomplete='off' disabled></td>
-            <td style='width: 20%;'><input class='form-control company-color-border terminal_input pw' id='pw2.1' type='password' name='password' placeholder='Passwort' autocomplete='off' disabled></td>
-            <td style='width: 20%;'><input class='form-control company-color-border terminal_input pw' id='pw2.2' type='password' name='password2' placeholder='Passwort bestätigen' autocomplete='off' disabled></td>
-            <td style='width: 20%;'><input type='submit' id='submit2' name='submitTerminal' class='btn company-color company-color-border' value='Speichern'></td>
+          <tr id="terminal" style="display: none;">
+            <td style="width: 20%;"><input class="form-control company-color-border terminal_input" type="text" name="terminal_name" placeholder="Name des Terminals" autocomplete="off" disabled></td>
+            <td style="width: 20%;"><input class="form-control company-color-border terminal_input" type="text" name="username" placeholder="Benutzername" autocomplete="off" disabled></td>
+            <td style="width: 20%;"><input class="form-control company-color-border terminal_input pw" id="pw2.1" type="password" name="password" placeholder="Passwort" autocomplete="off" disabled></td>
+            <td style="width: 20%;"><input class="form-control company-color-border terminal_input pw" id="pw2.2" type="password" name="password2" placeholder="Passwort bestätigen" autocomplete="off" disabled></td>
+            <td style="width: 20%;"><input type="submit" id="submit2" name="submitTerminal" class="btn company-color company-color-border" value="Speichern"></td>
           </tr>
         </tbody>
       </table>
