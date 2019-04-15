@@ -16,31 +16,14 @@
     ?>
   </header>
   <body>
-    <?php // TODO: form auslagern!!! ?>
+    <?php // TODO: form auslagern!!! bzw. table ?>
     <form action="processing.php" method="post">
-      <table class"table table-bordered table-striped" id="user" style="text-align: center; margin: 50px 0 0 0">
+      <table>
         <thead>
-          <tr>
-            <th colspan="4" style="width: 100%;">
-              <span style="font-size: 33px; margin: 0 0 0 50px; text-align: monospace;">Mitarbeiter/innen hinzufügen</span>
-              <button class="plus" type="button" value="" id="addrow"></button>
-            </th>
-          </tr>
+          <span class="mitarbeiterHinzufügen">Mitarbeiter/innen hinzufügen</span>
+          <button class="plus" type="button" value="" id="addrow"></button>
         </thead>
-        <tbody id="row">
-          <?php // TODO: style="display: none;" ?>
-          <!-- <tr id="row">
-            <td colspan="5">
-              <select class="form-control company-color-border" id="benutzer_dropdown" required>
-                <option value="" disabled selected>Benutzer</option>
-                <option>Admin</option>
-                <option>Mitarbeiter</option>
-                <option>Terminal</option>
-              </select>
-              <input type="hidden" id="benutzer">
-            </td>
-          </tr> -->
-          <?php // TODO: style="display: none;" ?>
+        <tbody id="row" style="display:none;">
           <tr>
             <td><input class="form-control company-color-border admin_employee_input" type="text" name="firstname" placeholder="Vorname" autocomplete="off" disabled></td>
             <td><input class="form-control company-color-border admin_employee_input" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
@@ -51,21 +34,6 @@
             <td><input class="form-control company-color-border admin_employee_input" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off" disabled></td>
             <td><input class="form-control company-color-border admin_employee_input" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off" disabled></td>
           </tr>
-          <!-- <?php // TODO:  style="display: none;" ?>
-          <tr id="admin_employee2">
-            <input type="hidden" id="type" name="type">
-            <td><input class="form-control company-color-border admin_employee_input pw" type="password" id="pw1.1" name="password" placeholder="Passwort" autocomplete="off" disabled></td>
-            <td><input class="form-control company-color-border admin_employee_input pw" type="password" id="pw1.2" name="password2" placeholder="Passwort bestätigen" autocomplete="off" disabled></td>
-            <td><input type="submit" id="submit" name="submitAdmin_employee" class="btn company-color company-color-border" value="Speichern"></td>
-          </tr>
-          <?php // TODO: style="display: none;" ?>
-          <tr id="terminal">
-            <td style="width: 20%;"><input class="form-control company-color-border terminal_input" type="text" name="terminal_name" placeholder="Name des Terminals" autocomplete="off" disabled></td>
-            <td style="width: 20%;"><input class="form-control company-color-border terminal_input" type="text" name="username" placeholder="Benutzername" autocomplete="off" disabled></td>
-            <td style="width: 20%;"><input class="form-control company-color-border terminal_input pw" id="pw2.1" type="password" name="password" placeholder="Passwort" autocomplete="off" disabled></td>
-            <td style="width: 20%;"><input class="form-control company-color-border terminal_input pw" id="pw2.2" type="password" name="password2" placeholder="Passwort bestätigen" autocomplete="off" disabled></td>
-            <td style="width: 20%;"><input type="submit" id="submit2" name="submitTerminal" class="btn company-color company-color-border" value="Speichern"></td>
-          </tr> -->
         </tbody>
       </table>
     </form>
