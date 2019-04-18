@@ -5,30 +5,23 @@
 body, html {margin: 0; padding: 0; width: 100%; height: 100%;  overflow: hidden;}
 /*########################## HTML TAG #################################*/
 
-table{
+.tableAll{
   width: calc(100% - 28px);
-  overflow: hidden;
   margin: 14px 14px 14px 14px;
   font-family: monospace;
+  font-size:25px;
+  line-height: 50px;
   text-align: center;
 }
 
-.mitarbeiterHinzufuegen{
-  /* margin: 14px 14px 14px 14px; */
-  /* width: 100%; */
-  font-size: 25px;
-  line-height: 50px;
-  overflow: auto;
-  /* font-family: monospace; */
-  /* text-align: center; */
-  /* font-size: 6.25vw; */
+.table2{
+  height: 125px;
+  font-size:25px;
 }
 
-.plus {
+.plus{
   padding: 0;
 	float: right;
-  /* margin: 0; */
-  /* padding: 0; */
 	background: transparent;
 	background-image: url('../icon/icons8-plus-2-50.png');
 	height: 50px;
@@ -36,13 +29,32 @@ table{
 	border: none;
   overflow: hidden;
   cursor: pointer;
-  /* position: relative; */
-  /* top: 75px;
-  left: 675px; */
 	box-shadow: none;
+  outline: none;
 }
 
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.inputEmployee{
+  width: 75%;
+  height: 30px;
+
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+
+  outline: none;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td{
+  border: 1px solid #dddddd;
+} */
+
+.trEmployee{
+  border-style: solid !important;
+  border-radius: 3px;
+  border-color: black;
 }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/textareaAndBtnBorderInColor.css"> -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
     <!-- <script src="js/visitor4uList.js"></script> -->
     <title>Visitor4U - Besucherliste</title>
   </head>

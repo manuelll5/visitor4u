@@ -61,6 +61,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/textareaAndBtnBorderInColor.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <?php
