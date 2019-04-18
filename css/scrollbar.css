@@ -1,21 +1,25 @@
-/*Quelle: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar */
+/*Quelle: https://medium.com/spemer/customize-websites-scrollbar-with-css-270ca436d6c1 */
 
-/* width */
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
 ::-webkit-scrollbar {
-  width: 10px;
+    background-color:#fff;
+    width:16px
 }
 
-/* Track */
+/* background of the scrollbar except button or resizer */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+    background-color:#fff
 }
 
-/* Handle */
+/* scrollbar itself */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+    background-color:#babac0;
+    border-radius:16px;
+    border:4px solid #fff
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {display:none}

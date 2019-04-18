@@ -1,6 +1,9 @@
 @charset "UTF-8";
+/*CSS Dokument*/
 
-body, html {margin: 0; padding: 0; width: 100%; height: 100%;}
+/*########################## HTML TAG #################################*/
+body, html {margin: 0; padding: 0; width: 100%; height: 100%;  overflow: hidden;}
+/*########################## HTML TAG #################################*/
 
 .m4u_logo{
   position:absolute;
