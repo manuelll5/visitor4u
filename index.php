@@ -60,6 +60,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/textareaAndBtnBorderInColor.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <?php
@@ -87,7 +88,7 @@
           <div class="form-group fg2">
             <input class="form-control" type="password" name="password" autocomplete="off" placeholder="Passwort" required>
           </div>
-          <input class="btn btn-lg m4u_color" type="submit" value="Anmelden">
+          <input class="btn btn-lg m4u_color index_button" type="submit" value="Anmelden">
         </form>
       </div>
       <script src="jQuery/jquery.min.js"></script>

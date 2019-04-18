@@ -1,0 +1,32 @@
+
+.color {
+	background-color: #2b78e4;
+	color: #f2f2f2;
+	border-color: #2b78e4 !important;
+	box-shadow: 0 1px 1px #2b78e4 inset, 0 0 8px #2b78e4 !important;
+}
+
+.m4u_color {
+	background-color: #860008;
+	color: white;
+}
+
+.index_button {
+  position:absolute;
+  width: 200px;
+  left: 50%;
+  top: 50%;
+  margin: 160px 0 0 -100px;
+}
+
+.visitorList_button {
+  position:absolute;
+  width: 200px;
+  left: 50%;
+  top: 20%;
+  margin: 160px 0 0 -100px;
+}
+
+.form-control{
+  text-align: center;
+}
