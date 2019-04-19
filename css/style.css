@@ -10,39 +10,69 @@ body, html{
 	overflow-x: auto;
 }
 /*########################## Allgemein #################################*/
-.color {
+.colorBlue {
 	background-color: #2b78e4;
 	color: #f2f2f2;
 }
 
+.colorLightGray{
+	background-color: #c8c8c8;
+}
+
+.colorDarkGray{
+	background-color: #656565;
+}
+
 .m4u_color {
 	background-color: #860008;
-	color: white;
+	color: #ffffff;
 }
 
 .border{
   border-style: solid;
-  border-radius: 3px;
-  border-color: black;
+  border-color: #000000;
+	border-collapse: collapse;
 }
 /*########################## Help #################################*/
 .object {
-  overflow: hidden;
   margin-left: 14px;
   width: calc(100% - 35px);
   height: calc(100% - 100px);
-  border-style: solid;
-  border-radius: 3px;
 }
 /*########################## Button #################################*/
-#cross {
+.plus{
+  padding: 0;
 	float: right;
 	background: transparent;
-	background-image: url('../icon/icons8-löschen-50.png');
+	background-image: url('../icon/icons8-plus-2-50.png');
 	height: 50px;
 	width: 50px;
 	border: none;
+  cursor: pointer;
 	box-shadow: none;
+  outline: none;
+}
+
+.edit{
+		padding: 0;
+		margin-top: 5px;
+		background: transparent;
+		background-image: url('../icon/icons8-edit-40.png');
+		height: 40px;
+		width: 40px;
+		border: none;
+		cursor: pointer;
+		box-shadow: none;
+		outline: none;
+}
+
+.delete{
+	padding: 0;
+	background: transparent;
+	background-image: url('../icon/icons8-delete-50.png');
+	height: 50px;
+	width: 50px;
+	border: none;
 	cursor: pointer;
 	outline: none;
 }
@@ -64,9 +94,6 @@ body, html{
 	font-family: monospace;
 	font-size: 15px;
 
-	border-style: solid;
-	border-radius: 3px;
-	border-color: black;
 	box-shadow: none;
 	outline: none;
 	cursor: pointer;
@@ -77,27 +104,12 @@ body, html{
   margin: 14px 14px 14px 14px;
   font-family: monospace;
   font-size:25px;
-  line-height: 50px;
   text-align: center;
 }
 
 .table2{
   height: 125px;
   font-size:25px;
-}
-
-.plus{
-  padding: 0;
-	float: right;
-	background: transparent;
-	background-image: url('../icon/icons8-plus-2-50.png');
-	height: 50px;
-	width: 50px;
-	border: none;
-  overflow: hidden;
-  cursor: pointer;
-	box-shadow: none;
-  outline: none;
 }
 
 .inputEmployee{
@@ -107,15 +119,24 @@ body, html{
   font-family: monospace;
   font-size: 15px;
   text-align: center;
-  line-height: 25px;
 
   outline: none;
 }
 
-.trEmployee{
-  border-style: solid !important;
-  border-radius: 3px;
-  border-color: black;
+.employeeAdd{
+	padding-left: 12%;
+}
+
+.employeeManage{
+	height: 50px;
+}
+
+.nth:nth-child(4n+3), .nth:nth-child(4n+4){
+    background-color:#818181;
+}
+
+@media screen and (max-width: 450px) {
+  .mitarbeiterHinzufügen{padding-left: 0;}
 }
 /*########################## Navbar #################################*/
 /* TODO: Auf employee.php bug! sidebar zu lang! */
@@ -125,7 +146,6 @@ body, html{
   font-family: monospace;
   margin: 14px 14px 14px 14px;
   border-style: solid;
-  border-radius: 3px;
 }
 
 .topnav a {

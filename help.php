@@ -14,7 +14,7 @@
     <?php // TODO: Responsiv! ?>
     <?php // TODO: Handbuch einfügen ?>
     <?php // TODO: Scrollbar ersetzen ?>
-    <object class="object" data="sonstiges/test.pdf" type="application/pdf">
+    <object class="object border" data="sonstiges/test.pdf" type="application/pdf">
         <?php // TODO: Test link entfernen und richtigen hinzufügen ?>
         <a href="https://www.google.de/webhp?tab=rw">Siehe Handbuch</a>
     </object>
