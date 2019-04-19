@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php // NOTE: Mitarbeiter hinzufügen in center ?>
+<?php // NOTE: Wenn scrollbar aktive, sidebar zu groß ?>
 <?php // NOTE: Table2 Rechte wie z.b reqiured ?>
 <html>
   <head>
@@ -100,30 +100,7 @@
           <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off"></td>
           <td><button class="delete" type="button" value=""></button></td>
         </tr>
-        <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Vorname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Nachname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="email" name="username" placeholder="EMail" autocomplete="off"></td>
-          <td><button class="edit" type="button" value=""></button></td>
-        </tr>
-        <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off"></td>
-          <td><button class="delete" type="button" value=""></button></td>
-        </tr>
-        <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Vorname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Nachname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="email" name="username" placeholder="EMail" autocomplete="off"></td>
-          <td><button class="edit" type="button" value=""></button></td>
-        </tr>
-        <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off"></td>
-          <td><button class="delete" type="button" value=""></button></td>
-        </tr>
+
       </table>
     </form>
   </body>

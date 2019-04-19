@@ -197,7 +197,6 @@ body, html{
     transition: 0.5s;
     opacity: 0.8;
     font-family: monospace;
-    border-radius: 3px;
 }
 
 .sidenav a {
