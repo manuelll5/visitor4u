@@ -6,11 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/employee.css">
-    <link rel="stylesheet" href="css/scrollbar.css">
-    <link rel="stylesheet" href="css/placeholder.css">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaControl.css">
     <!-- <script src="js/employee.js"></script> -->
     <title>Visitor4U - Mitarbeiter/innen</title>
   </head>
@@ -90,6 +86,7 @@
         <td><input class="inputEmployee border" type="text" name="username" placeholder="EMail" autocomplete="off"></td>
         <td><input class="inputEmployee border" type="text" name="username" placeholder="EMail" autocomplete="off"></td>
       </tr>
+
     </table>
   </body>
 </html>

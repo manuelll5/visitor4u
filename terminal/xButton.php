@@ -3,9 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="../css/button.css">
-    <link rel="stylesheet" href="../css/textareaAndBtnBorderInColor.css">
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mediaControl.css">
   </head>
   <body>
     <button id="cross" class="btn" data-toggle="modal" data-target="#logoutModal"></button>

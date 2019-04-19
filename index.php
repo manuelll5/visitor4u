@@ -59,11 +59,7 @@
     <title>Visitor4U</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/button.css">
-    <link rel="stylesheet" href="css/textareaAndBtnBorderInColor.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mediaControl.css">
     <?php
 			//Wenn login erfolgreich weiterleitung auf entsprechende Seite
 			if($return == 2) {
@@ -92,8 +88,8 @@
           <input class="btn btn-lg m4u_color index_button" type="submit" value="Anmelden">
         </form>
       </div>
-      <script src="jQuery/jquery.min.js"></script>
-  		<script src="bootstrap/js/bootstrap.min.js"></script>
+      <!-- <script src="jQuery/jquery.min.js"></script>
+  		<script src="bootstrap/js/bootstrap.min.js"></script> -->
       <?php
         }
         //Wenn login fehlschlägt
