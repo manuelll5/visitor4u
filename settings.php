@@ -14,6 +14,9 @@
   <body>
     <!-- Beninn form -->
     <form action="processing.php" method="post">
+
+<!----------------------------------------------------------------------------------------------------------->
+
       <!-- Beginn table Überschrift -->
       <table class="settingsGrungeinstellung tableAll">
         <tr>
@@ -23,6 +26,9 @@
         </tr>
       </table>
       <!-- Ende table Überschrift -->
+
+<!----------------------------------------------------------------------------------------------------------->
+
       <!-- Beginn table Grundeinstellungen -->
       <table class="table2 tableAll border">
         <tr class="nthSettings">
@@ -37,7 +43,7 @@
           <td>Ort</td>
           <td><input class="border" type="text" name="city" autocomplete="off" value="Karlsruhe"></td>
         </tr>
-        <tr class="nthSettings"><th class="border col" colspan='4' style="height:56px;">Einstellungen</th></tr>
+        <tr class="nthSettings"><th colspan='4' style="height:56px;">Einstellungen</th></tr>
         <tr class="nthSettings">
           <td>Max. Terminal</td>
           <td><input class="border colorDarkGray" type="text" name="set_max_terminal" autocomplete="off" value="5" disabled></td>
@@ -58,6 +64,9 @@
         </tr>
       </table>
       <!-- Ende table Grundeinstellungen -->
+
+<!----------------------------------------------------------------------------------------------------------->
+
       <!-- Beginn Überschrift Drag & Drop -->
       <table class="tableAll">
         <tr>
@@ -68,12 +77,58 @@
           </th>
         </tr>
       </table>
-      <!-- Ende Überschrift Drag & Drop -->
-      <!-- Beginn Drag & Drop -->
-      <table>
-
+      <table class="tableAll border colorLightGray">
+        <!-- Beginn thead Drag & Drop -->
+        <!-- Ende thead Drag & Drop -->
+        <!-- Beginn tbody Drag & Drop -->
+          <tr>
+            <td>Erforderlich - Reihenfolge</td>
+            <td>Nicht Erforderlich</td>
+          </tr>
+        <!-- Ende tbody Drag & Drop -->
       </table>
-      <!-- Ende Drag & Drop -->
+      <!-- Ende Überschrift Drag & Drop -->
+
+<!----------------------------------------------------------------------------------------------------------->
+<?php
+echo "<table class='table table-striped table-bordered' id='tableSortable' style='text-align: center; margin: 50px 0 0 0;'><thead>";
+echo 	"	<tr>
+        <th colspan='2'><span style='font-size: 33px;'>Einstellungen für den Besucherlogin</span></th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aktiv - Reihenfolge</td>
+      <td>Inaktiv</td>
+    </tr>
+    <tr>
+      <td style='width: 50%'>
+        <ul id='sortable1' class='connectedSortable'>";
+        foreach($result3_active as $green) {
+          echo "<li onmouseup='end();' class='ui-state-default greenLi'>" . $green . "</li>";
+        }
+
+        echo "</ul></td><td style='width: 50%;'><ul id='sortable2' class='connectedSortable'>";
+        foreach($result3_inactive as $red) {
+          echo "<li onmouseup='end();' class='ui-state-default redLi'>" . $red . "</li>";
+        }
+
+        //Sofort die bereits eingetragenen Eintragen im hidden input
+        $i = 0;
+        foreach($result3_active as $green) {
+          if($i++ == 0) {
+            $allGreen = $green;
+          } else {
+            $allGreen .= ";" . $green;
+          }
+        }
+echo "	</td>
+      <input type='hidden' value='" . $allGreen . "' name='activeOrder' id='activeOrder'>
+    </tr>
+  </tbody>
+</table>";
+?>
+<!----------------------------------------------------------------------------------------------------------->
     </form>
     <!-- Ende form -->
   </body>
