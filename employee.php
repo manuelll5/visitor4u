@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php // NOTE: Wenn scrollbar aktive, sidebar zu groß ?>
+<?php // NOTE: Wenn scrollbar aktive, sidebar zu breit und zu kurz ?>
 <?php // NOTE: Table2 Rechte wie z.b reqiured ?>
 <html>
   <head>
@@ -28,17 +28,17 @@
         </tr>
       </table>
       <?php // TODO: style="display:none;" id="row" ?>
-      <?php // TODO: bei allen input felder name anpassen! ?>
+      <?php // TODO: bei allen input felder "name" anpassen! ?>
       <table class="table2 tableAll border">
         <tr>
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Vorname" autocomplete="off" required></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Nachname" autocomplete="off" required></td>
-          <td><input class="inputEmployee border" type="email" name="username" placeholder="EMail" autocomplete="off" required></td>
+          <td><input class="border" type="text" name="firstname" placeholder="Vorname" autocomplete="off" required></td>
+          <td><input class="border" type="text" name="lastname" placeholder="Nachname" autocomplete="off" required></td>
+          <td><input class="border" type="email" name="username" placeholder="EMail" autocomplete="off" required></td>
         </tr>
         <tr>
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off" required></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off" required></td>
-          <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off" required></td>
+          <td><input class="border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off" required></td>
+          <td><input class="border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off" required></td>
+          <td><input class="border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off" required></td>
         </tr>
       </table>
       <div style="text-align:center;">
@@ -53,54 +53,53 @@
       </table>
       <table class="table2 tableAll border">
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Vorname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Nachname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="email" name="username" placeholder="EMail" autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Vorname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="email" name="username" placeholder="EMail" autocomplete="off" disabled></td>
           <td><button class="edit" type="button" value=""></button></td>
         </tr>
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Abteilung" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off" disabled></td>
           <td><button class="delete" type="button" value=""></button></td>
         </tr>
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Vorname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Nachname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="email" name="username" placeholder="EMail" autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Vorname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="email" name="username" placeholder="EMail" autocomplete="off" disabled></td>
           <td><button class="edit" type="button" value=""></button></td>
         </tr>
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Abteilung" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off" disabled></td>
           <td><button class="delete" type="button" value=""></button></td>
         </tr>
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Vorname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Nachname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="email" name="username" placeholder="EMail" autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Vorname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="email" name="username" placeholder="EMail" autocomplete="off" disabled></td>
           <td><button class="edit" type="button" value=""></button></td>
         </tr>
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Abteilung" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off" disabled></td>
           <td><button class="delete" type="button" value=""></button></td>
         </tr>
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Vorname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Nachname" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="email" name="username" placeholder="EMail" autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Vorname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="email" name="username" placeholder="EMail" autocomplete="off" disabled></td>
           <td><button class="edit" type="button" value=""></button></td>
         </tr>
         <tr class="nth">
-          <td><input class="inputEmployee border" type="text" name="firstname" placeholder="Abteilung" autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off"></td>
-          <td><input class="inputEmployee border" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off"></td>
+          <td><input class="border colorDarkGray" type="text" name="firstname" placeholder="Abteilung" autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="lastname" placeholder="Zimmer-Nr." autocomplete="off" disabled></td>
+          <td><input class="border colorDarkGray" type="text" name="username" placeholder="Telefon-Nr." autocomplete="off" disabled></td>
           <td><button class="delete" type="button" value=""></button></td>
         </tr>
-
       </table>
     </form>
   </body>

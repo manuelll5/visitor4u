@@ -10,27 +10,40 @@ body, html{
 	overflow-x: auto;
 }
 /*########################## Allgemein #################################*/
+:root{
+	--colorBlue:			#2b78e4;
+	--colorBlueText:	#f2f2f2;
+	--colorDarkGray:	#989898;
+	--colorLightGray:	#c8c8c8;
+	--m4u_color:			#860008;
+	--m4u_colorText:	#ffffff;
+	--black:		#000000;
+}
 .colorBlue {
-	background-color: #2b78e4;
-	color: #f2f2f2;
+	background-color: var(--colorBlue);
+	color: var(--colorBlueText);
 }
 
 .colorLightGray{
-	background-color: #c8c8c8;
+	background-color: var(--colorLightGray);
 }
 
 .colorDarkGray{
-	background-color: #656565;
+	background-color: var(--colorDarkGray);
 }
 
 .m4u_color {
-	background-color: #860008;
-	color: #ffffff;
+	background-color: var(--m4u_color);
+	color: var(--m4u_colorText);
+}
+
+.nth:nth-child(4n+3), .nth:nth-child(4n+4){
+    background-color: var(--colorLightGray);
 }
 
 .border{
   border-style: solid;
-  border-color: #000000;
+  border-color: var(--black);
 	border-collapse: collapse;
 }
 /*########################## Help #################################*/
@@ -98,7 +111,7 @@ body, html{
 	outline: none;
 	cursor: pointer;
 }
-/*########################## Employee #################################*/
+/*########################## Table #################################*/
 .tableAll{
   width: calc(100% - 28px);
   margin: 14px 14px 14px 14px;
@@ -112,7 +125,11 @@ body, html{
   font-size:25px;
 }
 
-.inputEmployee{
+td{
+	height: 61px;
+}
+
+input{
   width: 75%;
   height: 30px;
 
@@ -122,6 +139,7 @@ body, html{
 
   outline: none;
 }
+/*########################## Employee #################################*/
 
 .employeeAdd{
 	padding-left: 12%;
@@ -131,18 +149,20 @@ body, html{
 	height: 50px;
 }
 
-.nth:nth-child(4n+3), .nth:nth-child(4n+4){
-    background-color:#818181;
-}
-
 @media screen and (max-width: 450px) {
   .mitarbeiterHinzufügen{padding-left: 0;}
 }
+/*########################## Settings #################################*/
+
+.settingsGrungeinstellung{
+	height: 56px;
+}
+
 /*########################## Navbar #################################*/
 /* TODO: Auf employee.php bug! sidebar zu lang! */
 .topnav {
   overflow: hidden;
-  background-color: #2b78e4;
+  background-color: var(--colorBlue);
   font-family: monospace;
   margin: 14px 14px 14px 14px;
   border-style: solid;
@@ -151,7 +171,7 @@ body, html{
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: var(--colorBlueText);
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
@@ -167,7 +187,7 @@ body, html{
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #ddd;
+  background-color: var(--colorLightGray);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -192,10 +212,10 @@ body, html{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: var(--black);
     overflow-x: hidden;
     transition: 0.5s;
-    opacity: 0.8;
+    opacity: 0.9;
     font-family: monospace;
 }
 
@@ -203,7 +223,7 @@ body, html{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: var(--colorLightGray);
   display: block;
   transition: 0.3s;
 }
@@ -228,8 +248,8 @@ body, html{
 @media screen and (min-width: 801px) {
   .sidenav{display: none;}
   .topnav a:hover {
-    background-color:#f2f2f2;
-    color: black;
+    background-color:var(--colorBlueText);
+    color: var(--black);
   }
 }
 /*########################## Index #################################*/
@@ -292,7 +312,6 @@ body, html{
   }
   .b_button {
     margin: 130px 0 0 -100px;
-    background
   }
 }
 /*########################## Allgemein #################################*/
