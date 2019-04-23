@@ -8,7 +8,7 @@
   </head>
   <body>
       <div class="topnav">
-        <a href="settings.php">Einstellungen</a>
+        <a href="settings_main.php">Einstellungen</a>
         <a href="employee.php">Mitarbeiter</a>
         <a href="visitorList.php">Besucherliste</a>
         <a href="help.php">Hilfe</a>
