@@ -140,7 +140,7 @@ td{
 	height: 61px;
 }
 
-input{
+input, select{
   width: 75%;
   height: 30px;
 

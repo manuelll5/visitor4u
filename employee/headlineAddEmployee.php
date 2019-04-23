@@ -4,8 +4,7 @@
       <span>Mitarbeiter/innen hinzufügen</span>
     </th>
     <th>
-      <?php // NOTE: "js/employee.js" Button aus zeitlichen Gründen ohne funktion! ?>
-      <button class="plus" type="button" value="" id="addrow"></button>
+      <button class="plus" type="button" onclick="displayNone()"></button>
     </th>
   </tr>
 </table>

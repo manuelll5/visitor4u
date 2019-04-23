@@ -6,8 +6,13 @@
     </th>
     <th>
       <?php // NOTE: "js/employee.js" Button aus zeitlichen Gründen ohne funktion! ?>
-      <button class="plus" type="button" value="" id="addrow"></button>
+      <button class="plus" type="button" onclick="functionName"></button>
     </th>
   </tr>
 <!-- Ende table Überschrift Logins -->
 </table>
+<script>
+  function functionName() {
+    document.getElementById('id')
+  }
+</script>

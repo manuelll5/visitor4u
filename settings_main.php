@@ -18,7 +18,8 @@
     <!-- <br> -->
     <?php //include "settings/dragAndDrop.php"; ?>
     <!-- <br> -->
-    <?php include "settings/headlineLogin.php"; ?>
+    <?php //include "settings/headlineLogin.php"; ?>
+    <?php include "settings/addAccount.php"; ?>
     <?php //include "settings/adminAccount.php"; ?>
     <!-- <br> -->
     <?php //include "settings/visitorManagerAccount.php"; ?>

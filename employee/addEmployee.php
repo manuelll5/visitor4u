@@ -1,9 +1,8 @@
-<?php // NOTE:" js/employee.js" style="display:none;" id="row" ?>
 <?php // TODO: bei allen input felder "name" anpassen! ?>
 <!-- Beginn form -->
 <form action="processing.php" method="post">
   <!-- Beginn table Mitarbeiter hinzufügen -->
-  <table class="table2 tableAll border">
+  <table id="displayNone" style="display: none;" class="table2 tableAll border">
     <tr>
       <td><input class="border" type="text" name="firstname" placeholder="Vorname" autocomplete="off" required></td>
       <td><input class="border" type="text" name="lastname" placeholder="Nachname" autocomplete="off" required></td>
@@ -17,7 +16,7 @@
   <!-- Ende table Mitarbeiter hinzufügen -->
   </table>
   <!-- Beginn button Speichern -->
-  <div style="text-align:center;">
+  <div style="text-align:center; display: none;">
       <input class="btn colorBlue border s_button" type="submit" value="Speichern">
   <!-- Ende button Speichern -->
   </div>
