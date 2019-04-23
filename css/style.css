@@ -17,8 +17,13 @@ body, html{
 	--colorLightGray:	#c8c8c8;
 	--m4u_color:			#860008;
 	--m4u_colorText:	#ffffff;
-	--black:		#000000;
+	--black:					#000000;
 }
+
+.colorRed{
+		color: red;
+}
+
 .colorBlue {
 	background-color: var(--colorBlue);
 	color: var(--colorBlueText);
@@ -144,6 +149,14 @@ input{
   text-align: center;
 
   outline: none;
+}
+
+.tableWidth25{
+	width: 25% !important;
+}
+
+.tableWidth50{
+	width: 50% !important;
 }
 /*########################## Heading #################################*/
 

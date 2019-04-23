@@ -10,11 +10,17 @@
   </thead>
   <!-- Beginn tbody Admin Account -->
   <tbody>
-    <tr class="">
-      <td class="border" style="color:red; ">Admin</td>
-      <td class="border"><input class="border colorDarkGray" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
-      <td class="border"><input class="border colorDarkGray" type="email" name="username" placeholder="EMail" autocomplete="off" disabled></td>
-      <td class="border"><button style="float: left; margin-left:5px;" class="edit" type="button" value=""></button><button style="float: right;" class="delete" type="button" value=""></button></td>
+    <tr class="nthSettings">
+      <td class="border tableWidth25 colorRed">Admin</td>
+      <td class="border tableWidth25"><input class="border colorDarkGray" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
+      <td class="border tableWidth25"><input class="border colorDarkGray" type="email" name="username" placeholder="EMail" autocomplete="off" disabled></td>
+      <td class="border tableWidth25"><button style="float: left; margin-left:5px;" class="edit" type="button" value=""></button></td>
+    </tr>
+    <tr class="nthSettings">
+      <td class="border tableWidth25 colorRed">Admin</td>
+      <td class="border tableWidth25"><input class="border colorDarkGray" type="text" name="lastname" placeholder="Nachname" autocomplete="off" disabled></td>
+      <td class="border tableWidth25"><input class="border colorDarkGray" type="email" name="username" placeholder="EMail" autocomplete="off" disabled></td>
+      <td class="border tableWidth25"><button style="float: left; margin-left:5px;" class="edit" type="button" value=""></button><button style="float: right;" class="delete" type="button" value=""></button></td>
     </tr>
   <!-- Ende tbody Admin Account -->
   </tbody>

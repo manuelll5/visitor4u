@@ -8,14 +8,21 @@
     <title>Visitor4U - Einstellungen</title>
   </head>
   <header>
-    <?php include "navbar.php"; ?>
+    <?php //include "navbar.php"; ?>
   </header>
   <body>
-    <?php include "settings/headlineBasicSetting.php"; ?>
-    <?php include "settings/BasicSetting.php"; ?>
-    <?php include "settings/headlineDragAndDrop.php"; ?>
-    <?php include "settings/dragAndDrop.php"; ?>
+    <?php //include "settings/headlineBasicSetting.php"; ?>
+    <?php //include "settings/BasicSetting.php"; ?>
+    <!-- <br> -->
+    <?php //include "settings/headlineDragAndDrop.php"; ?>
+    <!-- <br> -->
+    <?php //include "settings/dragAndDrop.php"; ?>
+    <!-- <br> -->
     <?php include "settings/headlineLogin.php"; ?>
-    <?php include "settings/adminAccount.php"; ?>
+    <?php //include "settings/adminAccount.php"; ?>
+    <!-- <br> -->
+    <?php //include "settings/visitorManagerAccount.php"; ?>
+    <!-- <br> -->
+    <?php //include "settings/terminaLAccount.php"; ?>
   </body>
 </html>

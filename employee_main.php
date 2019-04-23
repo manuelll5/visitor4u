@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php // BUG: navbar verändert sich! ?>
 <?php // NOTE: Wenn scrollbar aktive, sidebar zu breit und zu kurz ?>
 <?php // NOTE: Table2 Rechte wie z.b reqiured ?>
 <html>
