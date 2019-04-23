@@ -94,14 +94,16 @@ body, html{
 	outline: none;
 }
 
-.index_button {
-	/* TODO:  	<div style="text-align:center;">
-								<input class="btn color employee_button" type="submit" value="Speichern">
-							</div> */
-  /* position:absolute;
-  left: 50%;
-  top: 50%;
-  margin: 160px 0 0 -100px; */
+.i_button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 200px 0 0 -100px;
+}
+
+.s_button{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .btn{
@@ -143,18 +145,18 @@ input{
 
   outline: none;
 }
-/*########################## Employee #################################*/
+/*########################## Heading #################################*/
 
-.employeeAdd{
+.heading1{
 	padding-left: 12%;
 }
 
-.employeeManage{
+.heading2{
 	height: 50px;
 }
 
 @media screen and (max-width: 450px) {
-  .mitarbeiterHinzufügen{padding-left: 0;}
+  .heading1{padding-left: 0;}
 }
 /*########################## Settings #################################*/
 
@@ -295,7 +297,7 @@ input{
     width: 300px;
     margin: 50px 0 0 -150px;
   }
-  .b_button {
+  .i_button {
     margin: 120px 0 0 -100px;
   }
 }
@@ -314,10 +316,17 @@ input{
     width: 300px;
     margin: 60px 0 0 -150px;
   }
-  .b_button {
+  .i_button {
     margin: 130px 0 0 -100px;
   }
 }
-/*########################## Allgemein #################################*/
-
-/*########################## Allgemein #################################*/
+/*########################## Logout #################################*/
+.logout{
+	margin: 14px 14px 14px 14px;
+	width: calc(100% - 28px);
+	height: calc(100% - 28px);
+	font-family: monospace;
+	font-size:25px;
+	text-align: center;
+	background-color: var(--colorLightGray);
+}

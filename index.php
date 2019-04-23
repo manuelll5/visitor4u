@@ -79,13 +79,9 @@
       <div class="center1">
         <img src="logo/visitor4u.png" alt="V4U-Logo" class="m4u_logo">
         <form action="index.php?page=log" method="post">
-          <div class="form-group fg1 ">
-            <input class="form-control" type="text" name="username" autocomplete="off" placeholder="Benutzername" required>
-          </div>
-          <div class="form-group fg2">
-            <input class="form-control" type="password" name="password" autocomplete="off" placeholder="Passwort" required>
-          </div>
-          <input class="btn btn-lg m4u_color index_button" type="submit" value="Anmelden">
+            <input class="fg1 border" type="text" name="username" autocomplete="off" placeholder="Benutzername" required>
+            <input class="fg2 border" type="password" name="password" autocomplete="off" placeholder="Passwort" required>
+            <input class="btn m4u_color border i_button" type="submit" value="Anmelden">
         </form>
       </div>
       <!-- <script src="jQuery/jquery.min.js"></script>
