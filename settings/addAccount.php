@@ -1,18 +1,5 @@
-<table class="tableAll">
-  <tr>
-    <th>
-        <span>Login-Account für die Administatoren, Besuchermanager und Terminal's.</span>
-    </th>
-    <th>
-      <?php // NOTE: "js/employee.js" Button aus zeitlichen Gründen ohne funktion! ?>
-      <button class="plus" type="button" onclick="test()"></button>
-    </th>
-  </tr>
-<!-- Ende table Überschrift Logins -->
-</table>
-
 <form action='processing.php' method='post'>
-	<table class="tableAll table2" style="display:none;" id="id">
+	<table class="tableAll table2" style="display:none;" id="displayNone">
     <tr>
 			<td colspan='5'>
 				<select class='border' required>
@@ -21,7 +8,7 @@
 					<option>Mitarbeiter</option>
 					<option>Terminal</option>
 				</select>
-				<input type='hidden' id='benutzer'>
+				<!-- <input type='hidden' id='benutzer'> -->
 			</td>
 		</tr>
   </table>
@@ -46,8 +33,3 @@
  		</tr>
 	</table>
 </form>
-<script>
-  function test() {
-    document.getElementById('id').style.display ="";
-  }
-</script>

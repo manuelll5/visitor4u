@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mediaControl.css">
+    <script src="js/settings.js"></script>
     <title>Visitor4U - Einstellungen</title>
   </head>
   <header>
-    <?php //include "navbar.php"; ?>
+    <?php include "navbar.php"; ?>
   </header>
   <body>
     <?php //include "settings/headlineBasicSetting.php"; ?>
@@ -18,7 +19,7 @@
     <!-- <br> -->
     <?php //include "settings/dragAndDrop.php"; ?>
     <!-- <br> -->
-    <?php //include "settings/headlineLogin.php"; ?>
+    <?php include "settings/headlineLogin.php"; ?>
     <?php include "settings/addAccount.php"; ?>
     <?php //include "settings/adminAccount.php"; ?>
     <!-- <br> -->
