@@ -10,7 +10,7 @@
       <div class="topnav">
         <a href="settings_main.php">Einstellungen</a>
         <a href="employee_main.php">Mitarbeiter</a>
-        <a href="visitorList.php">Besucherliste</a>
+        <a href="visitorList_main.php">Besucherliste</a>
         <a href="help.php">Hilfe</a>
         <a href="logout.php">Abmelden</a>
         <a
@@ -23,7 +23,7 @@
           <div id="mySidenav" class="sidenav">
             <a href="settings_main.php">Einstellungen</a>
             <a href="employee_main.php">Mitarbeiter</a>
-            <a href="visitorList.php">Besucherliste</a>
+            <a href="visitorList_main.php">Besucherliste</a>
             <a href="help.php">Hilfe</a>
             <a href="logout.php">Abmelden</a>
           </div>

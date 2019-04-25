@@ -12,19 +12,20 @@
     <?php include "navbar.php"; ?>
   </header>
   <body>
-    <?php //include "settings/headlineBasicSetting.php"; ?>
-    <?php //include "settings/BasicSetting.php"; ?>
-    <!-- <br> -->
-    <?php //include "settings/headlineDragAndDrop.php"; ?>
-    <!-- <br> -->
-    <?php //include "settings/dragAndDrop.php"; ?>
-    <!-- <br> -->
+    <?php include "settings/headlineBasicSetting.php"; ?>
+    <?php include "settings/BasicSetting.php"; ?>
+    <br>
+    <?php include "settings/headlineDragAndDrop.php"; ?>
+    <br>
+    <?php include "settings/dragAndDrop.php"; ?>
+    <br>
     <?php include "settings/headlineLogin.php"; ?>
     <?php include "settings/addAccount.php"; ?>
-    <?php //include "settings/adminAccount.php"; ?>
-    <!-- <br> -->
-    <?php //include "settings/visitorManagerAccount.php"; ?>
-    <!-- <br> -->
-    <?php //include "settings/terminaLAccount.php"; ?>
+    <br>
+    <?php include "settings/adminAccount.php"; ?>
+    <br>
+    <?php include "settings/visitorManagerAccount.php"; ?>
+    <br>
+    <?php include "settings/terminaLAccount.php"; ?>
   </body>
 </html>
